@@ -27,9 +27,6 @@ async function main() {
     )).deployed();
 
     console.log("NFT contract address:", NFTContract.address);
-    
-    // We also save the contract's artifacts and address in the frontend directory
-    saveFrontendFiles(PencilPalsContract);
   }
   
   main()
